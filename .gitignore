@@ -1,0 +1,12 @@
+# output compiled js files.
+app
+
+node_modules/
+
+# IDEA generated
+.idea/
+
+# grunt-ts ganerated
+src/main/scripts/.baseDir.ts
+
+.tscache
