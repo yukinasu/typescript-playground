@@ -1,6 +1,5 @@
+import Tree = require('./tree');
 
-import App = require('./app');
+var tree = new Tree.Controller();
 
-var greeter = new App.Controller("Whatup");
-
-greeter.greet();
+tree.getSame();
